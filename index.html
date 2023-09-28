@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+    <link rel="icon" href="./icon.webp">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="input-container">
+            <label for="billAmount">Bill Amount (₹):</label>
+            <input type="number" id="billAmount" min="0" placeholder="Enter bill amount">
+        </div>
+        <div class="input-container">
+            <button onclick="tipPercent(0)">No Tip</button>
+            <button onclick="tipPercent(10)">10%</button>
+            <button onclick="tipPercent(15)">15%</button>
+            <button onclick="tipPercent(20)">20%</button>
+            <button onclick="customPercent()">Custom Tip</button>
+        </div>
+        <div class="input-container" id="customTip" style="display: none;">
+            <label for="tipPercentage">Enter Tip Percentage (%):</label>
+            <input type="number" id="tipPercentage" min="0" placeholder="Enter tip percentage" onchange="customPercent()">
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
