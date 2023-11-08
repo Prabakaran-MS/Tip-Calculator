@@ -10,9 +10,7 @@ This is a simple web-based tip calculator that allows you to quickly calculate t
 4. The tip amount and total amount will be displayed below.
 
 ## Output
-![Tip Calculator Screenshot1](./screenshot1.png)
-![Tip Calculator Screenshot2](./screenshot2.png)
-![Tip Calculator Screenshot3](./screenshot3.png)
+![Tip Calculator Screenshot1](image.png)
 
 ## Clone this Repository
 
